@@ -1,0 +1,24 @@
+# grblHAL Einstellungen – Foam Cutter XYZA / BTT SKR Pico
+#
+# So füllst du diese Datei:
+#   1. Mit dem G-Code-Sender verbinden
+#   2. "$$" senden
+#   3. Die gesamte Ausgabe unten einfügen (eine Einstellung pro Zeile, z. B. $100=400.000)
+#
+# Wiederherstellen: Zeilen einzeln an die Steuerung senden.
+# Zeilen mit # werden von grblHAL nicht verstanden – beim Senden weglassen.
+#
+# Maschine:      ______________________
+# Datum:         ______________________
+# Firmware ($I): FoamCutter XYZA 21112023
+#
+# Wichtige Parameter (zur Orientierung):
+#   $100-$103  Schritte/mm X, Y, Z, A
+#   $110-$113  Max. Geschwindigkeit (mm/min)
+#   $120-$123  Beschleunigung (mm/s²)
+#   $130-$133  Max. Verfahrweg (mm)
+#   $3         Richtung invertieren (Bitmaske)
+#   $22-$27    Homing
+
+# --- Ausgabe von $$ hier einfügen ---
+
